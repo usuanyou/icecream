@@ -1,0 +1,19 @@
+
+        .lnb{position:absolute; top:250px; display: flex; justify-content: center;
+            width: 100%;  }
+      
+       .lnb a{color: white; font-family: 'luck'; font-size: 40px;
+             line-height: 70px;}
+       /* .subMenu{  position: absolute;  } */
+       
+       .lnb>ul>li:hover .subMenu{display: block;}
+       .lnb>ul>li{ position: relative;}
+       .lnb>ul>li>a{display: block; width:300px; background-color: orange;
+                   position: relative; left: 10px;
+       }
+
+       .subMenu{display: none; width: 400px ; }
+       .subMenu li{background-color: rgba(255, 255, 255, 0.3);
+          width: 400px;}
+       .subMenu a{font-family: 'mapleB'; font-size: 28px; line-height: 40px;
+                  }

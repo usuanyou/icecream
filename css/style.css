@@ -1,0 +1,1201 @@
+
+        @font-face {
+            font-family: 'luck';
+            src: url(../font/LuckiestGuy-Regular.ttf);
+        }
+        @font-face {
+            font-family: 'mapleB';
+            src: url(../font/Maplestory\ OTF\ Bold.otf);
+        }
+        @font-face {
+            font-family: 'mapleL';
+            src: url(../font/Maplestory\ OTF\ Light.otf);
+        }
+        @font-face {
+            font-family: 'locus';
+            src: url(../font/locus_sangsang.ttf);
+        }
+ 
+        body{
+            --mainBlue:#3DB1FF;
+            --mainBlue2: #069bff;
+            --subBlue: #3E49E4;
+            --black: rgb(29, 29, 29);
+
+
+            }
+       
+        body{width: 100%; margin: auto; display: flex;}
+        .container1{width: 400px;  position: relative;}
+        .contain1{background-color:var(--mainBlue) ;width: 100%; height: 3060px;}
+        .contain2{background-color:var(--mainBlue); width: 100%; height: 1000px;
+            align-items: flex-end; display: flex; flex-wrap: wrap; justify-content: center;}
+        /* .container3{width: 400px; background-color: #3DB1FF; position: relative;
+                    height: 1000px; float: left;} */
+        .contain2small{display: none; width: 100%; position: absolute;
+        top: 3900px;}
+        .footer{background-color:var(--mainBlue); width: 100%; margin: auto; height: 310px; }
+
+        header{width: 100%; position: relative;}
+        .toplogo{font-size: 0px; width: 100%; text-align: center; position: absolute;
+                margin-top: 40px;}
+        .toplogo img{width: 210px;  }
+       
+        .lnb{position:absolute; top:250px; left: 0px; display: flex; justify-content: center;
+             width: 420px; }
+       
+        .lnb a{color: white; font-family: 'luck'; font-size: 35px;
+               text-decoration: none; 
+              }
+
+        
+        .lnb>ul>li:hover .subMenu{display: block;}
+        .lnb a:hover{color: white;}
+        .lnb>ul>li>a{display: block; position: relative;
+         width: 300px; height: 60px; margin: auto; }
+        .lnb>ul>li>a>span{display: block; position: absolute;
+        }
+
+        .subMenu{display: none;  }
+        .subMenu li{background-color: rgba(255, 255, 255, 0.3);
+           width: 450px;}
+        .subMenu a{font-family: 'mapleB'; font-size: 26px; line-height: 50px;
+                    margin-left: 75px;}
+  
+         .subMenu a:hover{font-style: italic;}
+         
+         /* footer design */
+        .sns{display: flex; justify-content: center; margin-bottom: 180px;}
+        .sns li, .lastSns a{font-size: 0px; margin: 0 10px;}
+        .sns img{width: 60px;}
+
+        footer a{ color: white; font-family: 'locus'; font-size: 17px;
+            text-decoration: none;}
+        
+        footer>div{margin-bottom: 25px;}
+        .footerSec1 ul{display: flex; justify-content: space-evenly;}
+        .footerSec2{color: white; font-family: 'locus'; font-size: 13px;
+                   text-align: center; line-height: 20px; }
+        .footerSec3 ul{display: flex; justify-content: space-evenly; 
+            margin-bottom: 5px;}
+       
+        .footerSec3 a{line-height: 60px;}
+        .footerSec3 li:nth-child(2) a{font-size: 15px;}
+        .footerSec3 h2, .secondFooterSec4 h2{color: transparent; font-size: 0px;}
+        .footerSec3 img, .secondFooterSec4 img{width: 100px;}
+ 
+         
+        .secondFooterSec1 a,.secondFooterSec2,.secondFooterSec3{color: white; font-family: 'locus'; font-size: 15px;}
+        .secondFooterSec3{font-size: 13px;}
+        
+        .secondFooterSec1{display: flex; justify-content: space-between;}
+        .secondFooterSec1 ul{display: flex;}
+        .secondFooterSec1 a{margin: 15px; display: block;}
+
+        .secondFooterSec2{display: flex; justify-content:center ; margin-bottom: 0px;}
+        .footerCon1 ul, .footerCon2 ul{display: flex;}
+        .footerCon1 li{margin: 15px;}
+        .lastSns img{width: 50px;}
+        .secondFooterSec3{width: 100%; display: flex; justify-content: center; text-align: center;
+                         line-height: 20px;  margin-top: 20px; }
+        .secondFooterSec4{width: 100%; display: flex; justify-content: flex-end; padding: 20px;}
+        .lastSns{display: flex;} 
+
+ 
+
+        /* container2 design */
+        .container2{ width:calc( 100% - 400px); position: relative; 
+          /* background-color: wheat; */ 
+        }
+      .mainSection{width: 100%; margin: auto; display: flex;
+          flex-direction: column; }
+ 
+        .section1{margin: auto; width: 100%;   }
+        .section1 img{width: 100%; z-index: 1;}
+ 
+        /* slider sec1 */
+
+        /* search sec2 */
+        .section2{width: 100%; margin: auto; position: relative; }
+        .section2 span:nth-child(1){background-color: var(--subBlue);
+        width: 100%; height: 100px; position: absolute; 
+       top: 20%;}
+        .section2 span:nth-child(2){background-color: white;
+            width: 96%; height: 70px; position: absolute; 
+              margin-top: 15px; display: block; left: 2%;  }
+        .section2 span:nth-child(3){position: absolute;
+          display: flex; width: 95%;}
+          .section2 span:nth-child(3) div{margin-top: 20px;}
+        .searchText{font-family: 'luck'; font-size: 38px; color: var(--subBlue);
+                 margin-left: 60px;}
+        .searchIcecream img{width: 80px; margin-left: 10px; 
+                            margin-top: 5px;}
+         #search{color: var(--subBlue); border: none; 
+                
+                 background-color: #79D7F9;
+                 font-size: 30px; height: 50px; width: 90%;
+                 margin-top: 25px; margin-left: 10px;
+                 font-family: 'locus'; padding: 10px;}
+         #search:focus{outline: 2px solid #4dcfff;}
+         #search::placeholder{
+             color: rgb(37, 200, 255); font-size: 25px;}
+         /* .searchMagify svg{width: 50px; color:#3E49E4;} */
+         .searchMagify img{width: 50px; transform: rotate(270deg);}
+         .searchMagify{border: none;
+           margin-left: 20px; margin-top: 20px;}
+         
+         /* sec3 icecream flavor */
+         .section3{margin: auto; width: 100%; position: relative; margin-top: 120px;  }
+          
+          .flavorTitle{font-family: 'luck'; font-size: 40px; 
+           margin-left: 70px; margin-bottom: -5px;}
+           .flavorMent{font-family: 'mapleL'; font-size: 20px; 
+            margin-left: 70px; margin-bottom: 25px; }
+           .icecreamslide{position: relative; width: 100%;
+            /* background-color: #afdfff; */
+           
+         }
+           .swiper {
+            width: 95%;
+            height: 100%;
+          }
+       
+          .swiper-slide {
+            
+            /* background-color: white; */
+            text-align: center;
+            font-size: 18px;
+            
+           
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+           
+          }
+
+          .swiper-slide{display: flex; flex-direction: column;}
+          .scope>img
+          {width: 100%;}
+          .scope2>img
+          {width:95%;}
+          .cone>img{width: 60%;
+          display: block; margin-top: -25px; margin-left: 36px;}
+          .scope
+          {z-index: 10;}
+          .swiper-slide span:nth-child(2)
+          {z-index: 5; }
+          .cone
+          {opacity: 0; transition: 1s;}
+
+          .namePosition{position: absolute; top: 45%; z-index: 100;}
+          .kcal{ font-family: 'luck'; 
+            font-size: 21px;  z-index: 20;
+            opacity: 0; transition: 1s; display: block;}
+
+           .englishName{font-family: 'luck'; width: 100%;
+           font-size: 25px;  z-index: 30; display: block;
+             line-height: 25px; }
+           .koreanName{font-family: 'mapleB';
+           font-size: 20px;  z-index: 12;
+            display: block;}
+
+          /* .kcal{ font-family: 'luck'; position: absolute;
+            font-size: 21px; margin-top: 120px; z-index: 20;
+            opacity: 0; transition: 1s;}
+ 
+ 
+           .englishName{font-family: 'luck'; width: 100%;
+           font-size: 25px; position: absolute; z-index: 11;
+            margin-top: 10px; line-height: 25px;}
+           .koreanName{font-family: 'mapleB';
+           font-size: 20px;position: absolute; z-index: 12;
+           margin-top: 70px;}
+          */
+          /* .englishName6{
+            margin-top: 10px;
+            font-size: 22px;}
+          .englishName7, .englishName8, .englishName9, .englishName10, .englishName11, .englishName12
+          {margin-top: 28px; font-size: 23px;}
+          .koreanName7, .koreanName8, .koreanName9, .koreanName10, .koreanName11, .koreanName12
+          {margin-top: 110px;}
+          .kcal7, .kcal8, .kcal9, .kcal10, .kcal11, .kcal12{margin-top: 170px;} */
+        
+          .swiper-slide:hover .cone{ opacity: 1;}
+          .swiper-slide:hover .kcal{ opacity: 1;}
+          /* .swiper-slide:hover .englishName{
+           color: var(--subBlue);} */
+
+
+          .swiper-button-next:after {
+            content: 'next';
+          }
+          .swiper-button-next:after, .swiper-button-prev:after {
+            /* font-family: swiper-icons; */
+            content:'dkssud';
+            font-size: var(--swiper-navigation-size);
+            /* text-transform: none!important; */
+            letter-spacing: 0;
+            /* text-transform: none; */
+            font-variant: initial;
+            line-height: 1;
+            
+        }
+           /* .controls{position: absolute;top:35%; z-index: 99;  display: flex; justify-content: space-between; width: 100%;} */
+           .next{position: absolute;z-index: 99; top: 40%; right: 7px;
+                 background-image: url(../images/icon_nexticecream.png);
+                 background-size: cover;
+                 color: transparent;
+                 width: 30px;
+                 }
+           .prev{position: absolute;z-index: 99; top: 40%; 
+            background-image: url(../images/icon_previcecream.png);
+            background-size: cover;
+            width: 30px;
+            color: transparent;
+            margin-left: 5px;
+           }
+           .indicator
+           {position: absolute; top:90%; z-index: 99;  display: flex; width: 100%; justify-content: center;
+            }
+            
+             .flavorContent{width: 100%; margin: auto; position: relative;
+             justify-content: center; margin-top: 20px;  }
+            .icecreamshopTop img
+            {width: 91%; margin: auto; justify-content: center; display: flex;
+              margin-top: 20px; z-index: -2;}
+             .icecreamshopMiddle{width: 90%; height: 400px; justify-content: center; display: flex;
+              background-color: #38CAFF; margin: auto; position: relative;
+             top: -50px; z-index: -1; }
+              .icecreamshopBottom img
+            {width: 92%; margin: auto; justify-content: center; display: flex;
+              position: relative; top: -50px;}
+
+             .flavorContents
+             {width: 90%;  margin: auto; justify-content: center; display: flex;
+               }
+            
+             .icecreamInfo{position: absolute;
+              display: block; width: 80%;  top: 32%; display: flex;}
+              .icecreamInfomation{position: absolute; width: 30%;
+               
+                }
+              .icecreamInfo div{display: flex; flex-direction: column;}
+              .icecreamNameEn h2{font-family: 'luck'; font-size: 33px;}
+              .icecreamNameKo h2{font-family: 'mapleB'; font-size: 28px;}
+              .icecreamKcal{font-family: 'luck'; font-size: 20px;}
+              .icecreamTaste{font-family: 'mapleL'; font-size: 20px;
+               margin-top: 5px;}
+              .icecreamTaste2{font-family: 'mapleL'; font-size: 20px;
+               margin-top: 15px;}
+              /* .icecreamBuy>button{background-color: var(--);
+                                 color: rgb(235, 235, 235); font-family: 'mapleL'; font-size: 15px; 
+                                  border-radius: 5px; padding: 2px;} */
+
+
+               .icecreamGoods{position: absolute; width: 67%; left: 30%;
+                  top: -20px;} 
+                .similarGoods{font-family: 'mapleB'; font-size: 23px;
+                  text-align: center; margin-right: 50px; }
+                .similarGoodsContent{ display: flex; justify-content: space-around;}
+                /* .productPint img{width: 140px; margin-top: 40px;} */
+                
+                .productPint img{width: 145px; margin-top: 45px;}
+                .productPint5 img{margin-left: 10px; margin-top: 65px;}
+                .productPint12 img{margin-left: 10px; margin-top: 79px; width: 130px;}
+                .productPintText, .productConeText, .productQuaterText {font-family: 'mapleB'; font-size: 15px;
+                 text-align: center; margin-top: 10px; }
+                 .productConeText10{margin-left: 40px;}
+                 .productQuaterText10{margin-left: 10px;}
+                 .productQuaterText12{margin-left: 10px;}
+                 .productCone img{width: 90px;  margin-top: 20px; }
+                 .productCone1 img{width: 77px; margin-left: 15px;}
+                 .productCone2 img{width: 82px;}
+                 .productCone3 img{width: 75px; margin-left: 30px;}
+                 .productCone5 img{width: 80px; margin-left: 25px; margin-top: 25px;}
+                 .productCone6 img{width: 77px; margin-left: 25px;}
+                 .productCone7 img{width: 85px; margin-left: 10px;}
+                 .productCone8 img{width: 150px; margin-top: 85px;}
+                 .productCone9 img{width: 89px; margin-left: 15px;}
+                 .productCone10 img{width: 150px; margin-top: 102px; margin-left: 30px;}
+                 .productCone11 img{width: 125px; margin-top: 90px;}
+                 .productCone12 img{width: 70px; margin-top: 22px; margin-left: 10px;}
+                 .productQuater img{width: 190px;  margin-top: 90px; }
+                 .productQuater10 img{width: 220px; margin-top: 105px; margin-left: 10px;}
+                .icecreamInfo{display: none;}
+                 /* PINT -160
+                    CONE -90,100
+                    QUATER- 200 */
+
+             /* sec4 healthy snacks */
+                .section4{margin: auto; width: 100%; position: relative; margin-top: 130px; 
+                 }
+                /* .section4>span{display: flex;} */
+                .EnglishTitle{font-family: 'luck'; font-size: 40px; 
+                  margin-left: 70px; margin-bottom: -5px;}
+                  .koreanMent{font-family: 'mapleL'; font-size: 20px; 
+                   margin-left: 70px; margin-bottom: 25px; }
+                .koreanTitle{font-family: 'mapleB'; font-size: 25px;  margin-left: 70px}
+                .healthyslide{position: relative; width: 100%; 
+                 /* background-color: #afdfff; */
+                } 
+               
+                   .swiper2 {
+                    width: 95%;
+                    height: 100%;
+                  }
+                  .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+
+                    /* Center slide text vertically */
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    -webkit-align-items: center;
+                    align-items: center;
+                  }
+        
+                  .swiper-slide{display: flex; flex-direction: column; position: relative;}
+                  .healthySnacksPicture>img
+                  {width: 95%;}
+                  .healthySnacksPicture3>img{transform: rotate(-5deg);}
+                  .healthySnacksPicture5>img{width: 260px}
+                  .healthySnacksPicture6>img{width: 240px;}
+                  .healthySnacksPicture7>img{width: 210px;}
+                  .healthySnacksPicture8>img{width: 220px;}
+                  .healthySnacksHover>img{width: 100%;
+                  display: block; }
+                  .healthySnacksHover4>img{width: 95%;}
+                  
+                  .healthySnacksPicture
+                  {z-index: 10; position: absolute; top: 70px; left: 80px;}
+                  .healthySnacksPicture2{left: 100px;}
+                  .healthySnacksPicture3{left: 95px;}
+                  .healthySnacksPicture4{left: 95px;}
+                  .healthySnacksPicture5{left: 40px; top: 80px;}
+                  .healthySnacksPicture6{left: 50px; top: 80px;}
+                  .healthySnacksPicture8{ top: 100px; left: 60px;}
+                  .healthySnacksHover
+                  { transition: 1s; z-index: 5; transform: rotate(160deg);
+                   position: absolute;  left: 45px; 
+                     /* top: -230px; */
+                     top: 60px;
+                    }
+                   .hoverShow{top: 20px;}
+                   .hoverHide{top: -200px;}
+
+
+                   .healthySnacksHover2{left: 60px;}
+                  
+                  .healthySnacksEnName{font-family: 'luck'; width: 100%;
+                  font-size: 25px;  z-index: 11;
+                  display: block; margin-top: 300px; }
+                  
+                  .healthySnacksKoName{font-family: 'mapleB'; width: 100%;
+                  font-size: 20px;z-index: 12;
+                display: block;}
+                   
+    
+          
+                  .swiper-button-next:after {
+                    content: 'next';
+                  }
+                  .swiper-button-next:after, .swiper-button-prev:after {
+                    /* font-family: swiper-icons; */
+                    content:'dkssud';
+                    font-size: var(--swiper-navigation-size);
+                    /* text-transform: none!important; */
+                    letter-spacing: 0;
+                    /* text-transform: none; */
+                    font-variant: initial;
+                    line-height: 1;
+                    
+                }
+                   /* .controls{position: absolute;top:35%; z-index: 99;  display: flex; justify-content: space-between; width: 100%;} */
+                   .nexte{position: absolute;z-index: 99; top: 40%; right: 7px;
+                          background-image: url(../images/icon_cherry.png);
+                          background-size: 30px;
+                          background-repeat: no-repeat;
+                          background-position: center;
+                          width: 50px; height: 60px;
+                          color: transparent;
+                         }
+                   .preve{position: absolute;z-index: 99; top: 40%; 
+                    background-image: url(../images/icon_cherry.png);
+                    background-size: 30px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 50px; height: 60px;
+                    color: transparent;
+                    margin-left: 5px;
+                   }
+                   .indicator2
+                   {position: absolute; top:90%; z-index: 99;  display: flex; width: 100%; justify-content: center;
+                    }
+
+                   /* .healthySnacks{width: 100%; margin: auto; position: relative; 
+                  justify-content: center; margin-top: 40px; 
+                   background-color: aquamarine;  height: 400px;
+                  display: flex; justify-content: space-evenly;}
+                  .healthySnacks>div{ width: 23%; 
+                   background-color: blanchedalmond;  position: relative;
+                  }
+                 
+                   
+                  .healthySnacks>div:nth-child(1){background-color: #069bff;
+                  }
+
+                  .healthySnacks1{display: flex; flex-direction: column;
+                   text-align: center;}
+            
+                  .healthySnacksHover1{position: absolute; left: 15px; transform: rotate(160deg);}               
+                  .healthySnacksPicture1{position: absolute; left: 70px;}
+                  .healthySnacksEnName1{margin-top: 230px;}
+                  
+                  .icecreamslide{position: relative; width: 100%; */
+                    /* background-color: #afdfff;} */
+                   
+                  
+
+                  /* .healthySnacks>div>span{position: absolute;}
+                  .healthySnacksHover1{position: absolute; left: -25px;  }
+                  .healthySnacksHover1 img{width: 100%; transform: rotate(160deg); }
+                  .healthySnacksPicture1 img{width: 100%; transform: rotate(5deg);  }
+                  .healthySnacksPicture1{position: absolute; left: 30px;}
+                  .healthySnacksEnName1{font-family: 'luck'; font-size: 25px;
+                   top: 100px; top: 230px; left: 20px; }
+                   뒤 호버 290px. 쥬시 190px로 포토샵 지정 후 100% 해서 사용
+                  .healthySnacksKoName1{font-family: 'mapleB'; font-size: 20px;
+                    top: 270px; left: 70px; } */
+ 
+
+                    /* section5 구매방법 */
+                    .section5{margin: auto; width: 100%; position: relative; margin-top: 120px;  }
+                    .buyingBanner{width: 100%;
+                       text-align: center; margin-top: 20px;}
+                   .buyingBanner>span>a>img{width: 40%;}
+                   .buyingBanner1{margin-right: 80px;}
+
+                   /* section6 이벤트 */
+                   .section6{margin: auto; width: 100%; position: relative; margin-top: 120px;  }
+                   .eventBanner{width: 100%;
+                      text-align: center; margin-top: 20px;}
+                      .eventBanner>span>a>img{width: 27%;}
+                      .eventBanner>span{margin-right: 10px; margin-left: 10px;}
+                      
+                      
+                  
+         /* 반응형  */
+
+        @media screen and (max-width:1830px){
+          
+
+          /* 아이스크림 상세내역  */
+          /* .similarGoods{margin-top: -10px;margin-bottom: 10px; margin-right: 50px; } */
+          .productPint img{width: 130px; margin-top: 23px;}
+          .productPint5 img{width: 120px; margin-top: 50px;}
+          .productPint12 img{margin-left: 10px; margin-top: 60px; width: 110px;}
+          .productQuater img{width: 170px;  margin-top: 63px; }
+          .productQuater10 img{width: 200px; margin-top: 75px; margin-left: 10px;}
+
+          .productCone img{width: 90px;  margin-top: 20px; }
+          .productCone1 img{width: 60px; margin-left: 15px;}
+          .productCone2 img{width: 65px;  margin-top: 20px;}
+          .productCone3 img{width: 62px; margin-left: 30px; margin-top: 13px; }
+          .productCone4 img{width: 75px;  margin-top: 10px; margin-left: 10px; }
+          .productCone5 img{width: 70px; margin-left: 25px; margin-top: 10px;}
+
+          .productCone6 img{width: 60px; margin-left: 25px;}
+          .productCone7 img{width: 70px; margin-left: 15px; margin-top: 18px;}
+          .productCone8 img{width: 130px; margin-top: 68px;}
+          .productCone9 img{width: 70px; margin-left: 15px;}
+          .productCone10 img{width: 130px; margin-top: 77px; margin-left: 30px;}
+          .productCone11 img{width: 105px; margin-top: 70px;}
+          .productCone12 img{width: 60px; margin-top: 10px; margin-left: 10px;}
+        
+          /* 건강한 간식  */
+          .healthySnacksEnName{
+            font-size: 23px; margin-top: 260px; }
+            .healthySnacksKoName{
+            font-size: 18px; }
+          
+          .healthySnacksHover
+          { left: 50px; }
+          .healthySnacksPicture
+          {  left: 70px;}
+          .healthySnacksPicture>img
+           {width: 85%;}
+           .healthySnacksHover>img{width: 100%;}
+           .healthySnacksHover4>img{width: 95%;}
+          .healthySnacksPicture5>img{width: 240px}
+          .healthySnacksPicture6>img{width: 220px;}
+          .healthySnacksPicture7>img{width: 190px;}
+          .healthySnacksPicture8{left: 40px;}
+          .healthySnacksPicture8>img{width: 220px;}
+
+          /* container 높이 수정 */
+          .contain1{height: 2980px;}
+
+        }
+        @media screen and (max-width:1730px){
+          /* 아이스크림 스쿱  */
+          .englishName{ width: 100%;
+            font-size: 23px;}
+          .kcal{font-size: 19px;}
+          .englishName1{font-size: 22px;}
+          .englishName7, .englishName8, .englishName9, .englishName10, .englishName11, .englishName12
+          { font-size: 21px;}
+          .koreanName7, .koreanName8, .koreanName9, .koreanName10, .koreanName11, .koreanName12
+          { font-size: 18px;}
+
+          /* 아이스크림 상세정보 */
+          .icecreamInfomation{ width: 32%;}
+
+          /* 건강한 간식 */
+          .healthySnacksPicture
+           { top: 60px; left: 50px;}
+          .healthySnacksHover
+          { left: 25px; top: 60px; } 
+      
+       
+          .healthySnacksPicture5{left: 40px; top: 80px;}
+          .healthySnacksPicture6{left: 50px; top: 80px;}
+          .healthySnacksPicture7{ top: 70px; left: 50px;}
+          .healthySnacksPicture8{ top: 100px; left:20px;}
+          /* .healthySnacksHover>img{width: 110%;}
+
+          /* container 높이 수정 */
+          .contain1{height: 2860px;}
+         }
+
+        @media screen and (max-width:1650px){
+          
+           /* 아이스크림 상세정보 */
+
+           /* .icecreamInfo{  top: 32%; display: flex;} */
+           .icecreamInfomation{ top: -30px;}
+           .icecreamGoods{position: absolute; width: 67%; left: 35%; top: -5px; } 
+          .similarGoods{margin-top: -18px;margin-bottom: 5px; margin-right: 50px; }
+           
+
+            /* container 높이 수정 */
+            .contain1{height: 2750px;}
+         }
+   
+         @media screen and (max-width:1575px){
+         
+          /* 아이스크림 스쿱 설명 */
+       
+        .englishName10{ font-size: 19px;}
+
+          /* 건강한 간식 2 크기 조절 */
+          .healthySnacksPicture
+          { left: 30px;}
+          /* .healthySnacksHover
+          { left: 0px; } 
+           */
+
+          .healthySnacksPicture5>img{width: 220px}
+          .healthySnacksPicture6>img{width: 200px;}
+          .healthySnacksPicture7>img{width: 170px;}
+          .healthySnacksPicture8>img{width: 200px;}
+          .healthySnacksPicture5{left: 20px; top: 80px;}
+          .healthySnacksPicture6{left: 30px; top: 80px;}
+          .healthySnacksPicture7{ top: 70px; left: 30px;}
+          .healthySnacksPicture8{ top: 100px; left:0px;}
+
+            /* container 높이 수정 */
+            .contain1{height: 2630px;}
+          
+         }
+
+         @media screen and (max-width:1430px){
+          
+          /* 아이스크림 맛 콘 수정 */
+          .cone>img{width: 60%; margin-left: 28px;}
+
+           /* container 높이 수정 */
+           .contain1{height: 2500px;}
+         }
+
+
+         /* 아이패드 등 브레이킹 포인트 */
+
+        @media screen and (max-width:1350px){
+             body{display: block;}
+            .contain1{height: 230px;}
+            .contain2{display: none;}
+            .container1{width: 100%;}
+            .container2{width: 100%;}
+            .contain2small{display: block; }
+            
+            /* lnb 수정 */
+            .toplogo{ margin-top: 45px;}
+            .menu1{width: 100%; position: relative;
+                     z-index: 10;  }
+         
+            .lnb{ top:200px; left: 0px; width: 100%;
+                  /* transition: 1s; */
+                   margin: auto;  height: 60px;  position: relative;
+                  margin-left: 0px; background: linear-gradient(var(--mainBlue) 60px, #77C8FF 0);}
+            .lnb>ul{display: flex; justify-content: space-evenly; width: 100%; margin: 0px;}
+  
+            .lnb>ul>li>a{ display: block; text-align: center;  }
+            .lnb>ul>li:first-child a{width:155px ;}
+            .lnb>ul>li:nth-child(2) a{width:185px ;}
+            .lnb>ul>li:nth-child(3) a{width:150px ;}
+            .lnb>ul>li:nth-child(4) a{width:170px ;}
+            .lnb>ul>li:nth-child(5) a{width:150px ;}
+ 
+            .lnb a{ font-size: 33px;}
+            
+            .subMenu{ z-index: 20; position: absolute;
+                     top: 60px; 
+                     /* transition: 1s; */
+                   }
+           
+            .subMenu li{background-color: transparent;
+              width: 280px; }
+            .subMenu a{ font-size: 23px; line-height: 50px;
+                      display: block; text-align: center;
+                      /* background-color: wheat; */
+                      margin-left: 0px;    }
+
+             .lnb>ul:hover .subMenu{display: block;}
+             .lnb:hover {height: 320px;}
+
+             /* 아이스크림 콘, 스쿱 설명 수정 */
+
+             .flavorMent{ margin-bottom: 40px; }
+             .cone>img{width: 60%; margin-left: 36px;}
+             .englishName7{ font-size: 22px;}
+             .koreanName7{ font-size: 18px;}
+             .englishName10{ font-size: 22px;}
+
+             /* 아이스크림 상세정보 */
+             .icecreamInfomation{ top: 0px;}
+
+             /* 건강한 간식  */
+             .healthySnacksPicture
+             { left: 60px;}
+     
+            .healthySnacksPicture5{left: 35px; }
+            .healthySnacksPicture6{left: 50px; top: 80px;}
+            .healthySnacksPicture7{ top: 70px; left: 50px;}
+            .healthySnacksPicture8{ left:40px;}
+
+             /* container 높이 수정 */
+            .contain2small{ top: 3800px;}
+
+            .section1{margin-top: 30px;}
+
+        }
+
+        @media screen and (max-width:1080px){
+
+          /* section 간 공백 */
+          .section4{ margin-top: 90px; }
+          .section5{margin-top: 90px;  }
+          .section6{margin-top: 90px;  }
+          .contain2small{top: 3600px;}
+
+          /* lnb */
+          .lnb a{ font-size: 30px; }
+          .subMenu a{font-size: 21px;}
+
+          /* 아이스크림 맛 콘  */
+          .cone>img{ margin-left: 28px;}
+
+          /* 건강한 간식 */
+          .healthySnacksPicture
+          { left: 40px;}
+  
+          .healthySnacksPicture5>img{width: 200px}
+          .healthySnacksPicture6>img{width: 180px;}
+          .healthySnacksPicture7>img{width: 150px;}
+          .healthySnacksPicture8>img{width: 180px;}
+          .healthySnacksPicture5{left: 25px; }
+          .healthySnacksPicture8{ left:20px;}
+
+            /* container 높이 수정 */
+            .contain2small{ top: 3400px;}
+       }
+
+        @media screen and (max-width:920px){
+
+          /* section 간 공백 */
+          .section4{ margin-top: 90px; }
+          .section5{margin-top: 90px;  }
+          .section6{margin-top: 10px;  }
+          .contain2small{top: 3400px;}
+
+          /* section 설명 제목 */
+          .flavorTitle{ margin-left: 50px; margin-bottom: -5px;}
+          .flavorMent{margin-left: 50px; margin-bottom: 25px; }
+          .EnglishTitle{margin-left: 50px; margin-bottom: -5px;}
+          .koreanMent{ margin-left: 50px; margin-bottom: 25px; margin-right: 50px; }
+          .koreanTitle{ margin-left: 50px; }
+
+          /* 아이스크림 맛 글씨 */
+          .englishName{ font-size: 21px;}
+          .koreanName{font-size: 17px;}
+          .kcal{font-size: 17px;}
+
+          /* 아이스크림 상세정보 */
+          .flavorContent{  margin-top: 80px;  }
+          .icecreamInfomation{ top: -30px;}
+
+            /* 건강한 간식 */
+            .healthySnacksPicture
+            { left: 40px;}
+    
+            .healthySnacksPicture5>img{width: 190px}
+            .healthySnacksPicture6>img{width: 170px;}
+            .healthySnacksPicture7>img{width: 140px;}
+            .healthySnacksPicture8>img{width: 155px;}
+            .healthySnacksPicture5{left: 15px; }
+            .healthySnacksPicture8{ left:10px;}
+
+          /* section5 구매방법 */
+          .section5{margin-top: 100px;  }
+          .buyingBanner{ height: 300px;
+             /* background-color: #069bff; */
+            }
+          .buyingBanner>span>a>img{width: 45%;}
+          .buyingBanner1{margin-right: 30px;}
+
+              /* 이벤트 */
+          .section6{margin: auto; width: 100%; position: relative; margin-top: 100px;  }
+          .eventBanner{ height: 250px; }
+          .eventBanner>span>a>img{width: 28%;}
+          .eventBanner>span{margin-right: 10px; margin-left: 10px;}
+
+           /* container 높이 수정 */
+           .contain2small{ top: 3250px;}
+   
+        }
+
+        @media screen and (max-width:830px){
+           
+          /* lnb */
+          .lnb>ul{ width: 100%; margin: 0px; justify-content: space-around; }
+          .lnb a{ font-size: 28px; }
+          .subMenu a{ font-size: 18px; }
+          .lnb>ul>li:first-child a{width:135px ;}
+            .lnb>ul>li:nth-child(2) a{width:170px ;}
+            .lnb>ul>li:nth-child(3) a{width:130px ;}
+            .lnb>ul>li:nth-child(4) a{width:140px ;}
+            .lnb>ul>li:nth-child(5) a{width:150px ;}
+            
+            /* 아이스크림 맛  */
+            .flavorMent{ margin-bottom: 0px; }
+            .icecreamClick{height: 270px;}
+            .cone>img{ margin-left: 20px;}
+
+
+           /* 아이스크림 상세정보 */
+           .flavorContent{  margin-top: 80px;  }
+           .icecreamInfomation{ top: -40px; width: 38%; left: -12px; }
+           .icecreamGoods{ width: 58%; left: 42%; top: -30px; } 
+           /* .similarGoods{margin-top: -18px;margin-bottom: 5px; margin-right: 50px; } */
+  
+
+           .productPintText, .productConeText, .productQuaterText 
+           {font-size: 14px; text-align: center; margin-top: 10px; 
+           }
+           .productConeText{ width: 120px;}
+           .productPintText{width: 130px;}
+
+           .icecreamTaste{ font-size: 16px; margin-top: 5px;}
+           .icecreamTaste2{font-size: 16px; margin-top: 15px;}
+
+           .productPint img{width: 110px; margin-top: 50px;}
+          .productPint5 img{width: 90px; margin-top: 83px;}
+          .productPint12 img{margin-left: 10px; margin-top: 60px; width: 110px;}
+          .productQuater img{width: 140px;  margin-top: 82px;  }
+          .productQuater10 img{width: 130px; margin-top: 113px; margin-left: 10px;}
+
+          .productCone img{width: 70px;  margin-top: 20px; }
+          .productCone1 img{width: 50px; margin-left: 35px;  margin-top: 50px;}
+          .productCone2 img{width: 55px;  margin-top: 45px; margin-left: 30px;}
+          .productCone3 img{width: 48px; margin-left: 35px; margin-top: 54px; }
+          .productCone4 img{width: 55px;  margin-top: 58px; margin-left: 30px; }
+          .productCone5 img{width: 50px; margin-left: 35px; margin-top: 56px;}
+
+          .productCone6 img{width: 50px; margin-left: 25px; margin-top: 50px;}
+          .productCone7 img{width: 50px; margin-left: 30px; margin-top: 65px;}
+          .productCone8 img{width: 130px; margin-top: 68px;}
+          .productCone9 img{width: 55px; margin-left: 35px; margin-top: 57px;}
+          .productCone10 img{width: 100px; margin-top: 104px; margin-left: 10px;}
+          .productCone11 img{width: 95px; margin-top: 80px;}
+          .productCone12 img{width: 45px; margin-top: 50px; margin-left: 35px;}
+
+          .productConeText10{margin-left: 10px; width: 130px;}
+          .productQuaterText10{margin-left: 10px; width: 140px;}
+          .productQuaterText12{margin-left: 10px;}
+       
+          /* 검색창 */
+          .searchText{ font-size: 35px; margin-left: 30px;
+            padding-top: 5px;}
+          .searchIcecream img{width: 70px; margin-left: 10px; 
+              margin-top: 7px;}
+          .searchMagify img{width: 40px; margin-top: 10px;
+            margin-left: 15px;}
+            .searchMagify{ margin-left: 0px; margin-top: 0px;}
+
+          /* 건강한 간식 */
+          .healthySnacksPicture5>img{width: 170px}
+          .healthySnacksPicture6>img{width: 150px;}
+          .healthySnacksPicture7>img{width: 120px;}
+          .healthySnacksPicture8>img{width: 145px;}
+          .healthySnacksPicture5{left: 15px; }
+          .healthySnacksPicture8{ left:5px;}
+          .healthySnacksPicture6{left: 20px; top: 80px;}
+          .healthySnacksPicture7{left: 20px; top: 80px;}
+      
+          .healthySnacksEnName{
+            font-size: 23px; margin-top: 230px; }
+            .healthySnacksKoName{
+            font-size: 18px; }
+
+           
+        
+        }
+        
+        /* 핸드폰 디스플레이 */
+        @media screen and (max-width:720px){
+
+          /* 1. lnb 수정 */
+          header{background: var(--mainBlue); height: 100vh; }
+          .lnb{ top:180px;height: 77vh; 
+           background: var(--mainBlue);  }
+          .lnb>ul{display: flex; flex-direction: column; align-items: flex-start;
+            justify-content: space-evenly; width: 100%; }
+          .lnb>li{width: 100%;}
+        
+            .lnb>ul>li>a{display:block; text-align: left; 
+                margin-left:70%; 
+             }
+            .lnb>ul>li:first-child a{width:300px ;  position: relative;}
+            .lnb>ul>li:nth-child(2) a{width:300px ;}
+            .lnb>ul>li:nth-child(3) a{width:300px ;}
+            .lnb>ul>li:nth-child(4) a{width:300px ;}
+            .lnb>ul>li:nth-child(5) a{width:300px ;}
+ 
+            .lnb a{ font-size: 47px;}
+            
+            .subMenu{ z-index: 20; position: absolute;
+                     top: 60px; display: block;}
+           
+            .subMenu li{width: 0px; }
+            .subMenu a{ font-size: 0px; line-height: 0px; display:none;  }
+             .lnb>ul:hover .subMenu{display: none;} 
+             .lnb:hover {height: 77vh;}
+              
+             .toplogo{ margin-top: 60px; z-index: 100;}
+              .lnb1::after{  content: ''; display: block;
+                width: 80px; height: 80px; 
+                background-image: url(../images/icecream_chocoblue.png);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                position: absolute; top: 11%; left: 17%;
+               }
+              .lnb2::after{  content: ''; display: block;
+                width: 80px; height: 80px; 
+                background-image: url(../images/icecream_cherrySorbet.png);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                position: absolute; top: 29%; left: 17%;
+               }
+              .lnb3::after{  content: ''; display: block;
+                width: 80px; height: 80px; 
+                background-image: url(../images/icecream_superman.png);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                position: absolute; top: 48%; left: 17%;
+               }
+              .lnb4::after{  content: ''; display: block;
+                width: 80px; height: 80px; 
+                background-image: url(../images/icecream_heavenlyHazelnut.png);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                position: absolute; top: 65%; left: 17%;
+               }
+              .lnb5::after{  content: ''; display: block;
+                width: 80px; height: 80px; 
+                background-image: url(../images/icecream_orange-sherbet.png);
+                background-size: 80px;
+                background-repeat: no-repeat;
+                position: absolute; top: 84%; left: 17%;
+               }
+              
+
+              .section1{margin-top: 800px;}
+               /* 2. sec2 검색 */
+               .section2{ margin-top: 0px;  }
+               
+           
+
+               /* 3. sec3 아이스크림 맛 */
+            
+              .flavorTitle{ margin-left: 0px;}
+              .flavorMent{ margin-bottom: 50px;  margin-left: 0px;}
+
+              .section3{margin: auto; width: 100%; position: relative; margin-top: 120px;  }
+              .flavorWrap{ text-align: center;}
+              .icecreamClick{height: 320px;}
+              .cone>img{ margin-left: 40px;}
+
+              /* 4. 아이스크림 상세 내용 */
+              .icecreamInfomation{ top: -130px; width: 100%; }
+              .icecreamInfo div{display: flex; flex-direction: column; 
+              text-align: center;}
+              .icecreamshopMiddle{width: 90%; height: 600px;}
+              .icecreamGoods{ width: 90%; left: 5%; top: 130px; } 
+              
+              .icecreamNameEn h2{font-size: 32px;}
+              .icecreamNameKo h2{ font-size: 27px;}
+              .icecreamKcal{ font-size: 18px;}
+              .icecreamTaste{ font-size: 19px; margin-top: 5px;}
+              .icecreamTaste2{ font-size: 19px; margin-top: 15px;}
+
+                .similarGoods{margin-top: 0px;margin-bottom: -20px; margin-right: 30px; }
+
+                /* .productCone img{width: 70px;  margin-top: 20px; } */
+              .productCone1 img{width: 50px; margin-left: 5px;  margin-top: 50px;}
+              .productCone2 img{width: 55px;  margin-top: 45px; margin-left: 0px;}
+              .productCone3 img{width: 48px; margin-left: 5px; margin-top: 54px; }
+              .productCone4 img{width: 55px;  margin-top: 58px; margin-left: 10px; }
+              .productCone5 img{width: 50px; margin-left: 15px; margin-top: 56px;}
+
+              .productCone6 img{width: 50px; margin-left: 15px; margin-top: 50px;}
+              .productCone7 img{width: 50px; margin-left: 0px; margin-top: 65px;}
+              .productCone8 img{width: 130px; margin-top: 68px;}
+              .productCone9 img{width: 55px; margin-left: 15px; margin-top: 57px;}
+              .productCone10 img{width: 100px; margin-top: 104px; margin-left: 10px;}
+              .productCone11 img{width: 95px; margin-top: 80px;}
+              .productCone12 img{width: 45px; margin-top: 50px; margin-left: 5px;}
+    
+                /* 4. sec.4 건강한 간식  */
+                .section4{ margin-top: 50px; }
+
+                .healthySnacksPicture
+                { top: 60px; left: 60px;}
+                .healthySnacksHover
+                { left: 15px; top: 60px; } 
+                .healthySnacksPicture>img
+                {width: 85%;}
+                .healthySnacksHover>img{width: 90%;}
+
+                .healthySnacksPicture5>img{width: 80%}
+                .healthySnacksPicture6>img{width: 75%;}
+                .healthySnacksPicture7>img{width: 65%;}
+                .healthySnacksPicture8>img{width: 75%;}
+                .healthySnacksPicture5{left: 15px; top: 90px; }
+                .healthySnacksPicture6{left: 20px; top: 90px;}
+                .healthySnacksPicture7{left: 20px; top: 80px;}
+                .healthySnacksPicture8{ left:5px; top: 90px;}
+                
+
+                .healthySnacksEnName{
+                  font-size: 23px; margin-top: 290px; }
+                  .healthySnacksKoName{
+                  font-size: 18px; }
+                 
+                /* section5 구매방법 */
+                .section5{ margin-top: 80px;  }
+                .buyingBanner{width: 100%; margin-top: 20px; display: flex; flex-direction: column;}
+                .buyingBanner>span>a>img{width: 90%;}
+                .buyingBanner1{margin-right: 0px; display: block; margin-bottom: 30px;}
+                
+                /* section6 이벤트 */
+                .section6{margin: auto; width: 100%; position: relative; margin-top: 680px;  }
+                .eventBanner{width: 100%;  display: flex; flex-direction: column;}
+                  .eventBanner>span>a>img{width: 80%;}
+                  .eventBanner>span{margin-right: 0px; margin-left: 0px;
+                                    margin-bottom: 20px;}
+
+
+                 /* container 높이 수정 */
+               .contain2small{ top: 6200px;}
+
+        }
+        @media screen and (max-width:640px){
+          /* 서치창 */
+          .searchText{ font-size: 32px; margin-left: 20px;
+            padding-top: 5px;}
+          .searchIcecream img{width: 55px; margin-left: 10px; 
+              margin-top: 10px;}
+          .searchMagify img{width: 40px; margin-top: 10px;
+            margin-left: 15px;}
+          #search{
+            font-size: 20px; height: 50px; width: 90%;
+            margin-top: 25px; margin-left: 10px;
+            font-family: 'locus'; padding: 10px;}
+
+            .searchMagify{ margin-left: 0px; margin-top: 0px;}
+
+              /* container 높이 수정 */
+              .contain2small{ top: 6100px;}
+          }
+          
+ 
+        @media screen and (max-width:610px){
+
+           /* 건강한 간식 */
+          .healthySnacksPicture
+          { top: 60px; left: 40px;}
+          .healthySnacksHover
+          { left: 15px; top: 60px; } 
+          .healthySnacksPicture5>img{width: 90%}
+          .healthySnacksPicture6>img{width: 85%;}
+          .healthySnacksPicture7>img{width: 75%;}
+          .healthySnacksPicture8>img{width: 85%;}
+          .healthySnacksPicture5{left: 15px; top: 80px; }
+          .healthySnacksPicture6{left: 10px; top: 80px;}
+          .healthySnacksPicture7{left: 20px; top: 80px;}
+          .healthySnacksPicture8{ left:5px; top: 90px;}
+
+            /* container 높이 수정 */
+            .contain2small{ top: 6000px;}
+        }
+        
+        @media screen and (max-width:590px){
+          /* lnb */
+          .lnb{ top:200px; }
+          .lnb>ul>li>a{ margin-left:55%; }
+          .toplogo{ margin-top: 60px; z-index: 100;}
+          .lnb1::after{  left: 13%;}
+          .lnb2::after{  left: 13%;}
+          .lnb3::after{  left: 13%;}
+          .lnb4::after{  left: 13%;}
+          .lnb5::after{  left: 13%;}
+          
+          /* search */
+          /* .section2{ margin-top: 550px;  } */
+
+          /* 아이스크림 상세창 */
+          .icecreamshopMiddle{height: 550px; top: -20px;  }
+          /* .icecreamshopTop img
+          { margin-top: 20px; z-index: -2;}
+        */
+        .icecreamshopBottom img
+        { top: -20px;}
+  
+
+         /* container 높이 수정 */
+         .section6{margin-top: 520px;  }
+         .contain2small{ top: 5700px;}
+      }
+        
+        @media screen and (max-width:500px){
+
+          /* lnb */
+          .lnb a{ font-size: 40px;}
+          .lnb1::after{  left: 14%;  width: 70px; height: 70px; background-size: 70px;}
+          .lnb2::after{  left: 14%;  width: 70px; height: 70px; background-size: 70px;}
+          .lnb3::after{  left: 14%;  width: 70px; height: 70px; background-size: 70px;}
+          .lnb4::after{  left: 14%;  width: 70px; height: 70px; background-size: 70px;}
+          .lnb5::after{  left: 14%;  width: 70px; height: 70px; background-size: 70px;}
+          
+          
+
+          /* 아이스크림 맛 */
+          .cone>img{ margin-left: 30px;}
+
+          .TitleWrap{text-align: center;}
+          .EnglishTitle{margin-left: 0px; margin-bottom: -5px;}
+          .koreanMent{ margin-left: 10px; margin-bottom: 25px; margin-right: 10px; 
+            font-size: 18px; }
+          .koreanTitle{ margin-left: 0px; }
+
+          /* 건강한 간식 */
+          .healthySnacksPicture
+          { top: 60px; left: 25px;}
+           /* container 높이 수정 */
+         .contain2small{ top: 5500px;}
+         
+        }
+        @media screen and (max-width:470px){
+          /* lnb */
+          .toplogo{ margin-top: 30px; z-index: 100;}
+          .toplogo img{width: 190px;  }
+          .lnb a{ font-size: 38px;}
+          .lnb{top:140px}
+          .lnb>ul>li>a{ margin-left:38%; }
+          .lnb1::after{  margin-left: -5%;  width: 60px; height: 60px; background-size: 60px; top: 8%;}
+          .lnb2::after{   margin-left: -5%;  width: 60px; height: 60px; background-size: 60px; top: 27%;}
+          .lnb3::after{  margin-left: -5%; width: 60px; height: 60px; background-size: 60px; top: 46%;}
+          .lnb4::after{   margin-left: -5%;  width: 60px; height: 60px; background-size: 60px; top: 63%; }
+          .lnb5::after{  margin-left: -5%; width: 60px; height: 60px; background-size: 60px; top: 82%; }
+
+          /*  */
+          .section1{margin-top: 300px;}
+ 
+          /* sec3 아이스크림 맛 */
+          .flavorMent{ margin-bottom: 10px;  margin-left: 0px;}
+          .icecreamClick{height: 250px;}
+           .cone>img{ margin-left: 15px;}
+
+          /* sec4 아이스크림 상세 */
+
+          .productPintText, .productConeText, .productQuaterText 
+           {font-size: 12px; text-align: center; margin-top: 10px;  }
+          .icecreamGoods{ width: 80%; left: 10%; top: 130px; } 
+          .productPint img{width: 80px; margin-top: 60px;}
+          .productPint5 img{width: 70px; margin-top: 80px;}
+          .productPint12 img{margin-left: 10px; margin-top: 73px; width: 80px;}
+          .productQuater img{width: 110px;  margin-top: 82px;  }
+          .productQuater10 img{width: 110px; margin-top: 98px; margin-left: 10px;}
+          .productCone1 img{width: 35px; margin-left: 5px;  margin-top: 66px;}
+          .productCone2 img{width: 40px;  margin-top: 60px; margin-left: 0px;}
+          .productCone3 img{width: 35px; margin-left: 5px; margin-top: 65px; }
+          .productCone4 img{width: 40px;  margin-top: 68px; margin-left: 10px; }
+          .productCone5 img{width: 38px; margin-left: 15px; margin-top: 63px;}
+
+          .productCone6 img{width: 35px; margin-left: 5px; margin-top: 66px;}
+
+          .productCone7 img{width: 35px; margin-left: 0px; margin-top: 75px;}
+          .productCone8 img{width: 80px; margin-top: 88px;}
+          .productCone9 img{width: 40px; margin-left: 5px; margin-top: 68px;}
+          .productCone10 img{width: 75px; margin-top: 98px; margin-left: 10px;}
+          .productCone11 img{width: 75px; margin-top: 80px;}
+          .productCone12 img{width: 35px; margin-top: 60px; margin-left: 5px;}
+
+          .similarGoods{margin-top: 0px;margin-bottom: -30px; margin-right: 30px; }
+          .similarGoodsContent{  justify-content:center; }
+          .icecreamGoods{position: absolute; width: 67%; left: 15%;} 
+          .section6{margin-top: 360px;  }
+          .icecreamSample1{margin-right: -11%;}
+          .icecreamSample3{margin-right: 1%;}
+           
+           /* footer */
+           .secondFooterSec1 a,.secondFooterSec2,.secondFooterSec3
+           { font-size: 10px;}
+          
+           .lastSns img{width: 45px;}
+           .secondFooterSec4 img{width: 80px;}
+           .footer{ height: 290px; }
+          
+
+          .contain2small{ top: 4700px;}
+        }
+        
+     
