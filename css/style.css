@@ -304,7 +304,7 @@
                                   border-radius: 5px; padding: 2px;} */
 
 
-               .icecreamGoods{position: absolute; width: 67%; left: 30%;
+               .icecreamGoods{position: absolute; width: 67%; left: 35%;
                   top: -20px;} 
                 .similarGoods{font-family: 'mapleB'; font-size: 23px;
                   text-align: center; margin-right: 50px; }
@@ -451,42 +451,6 @@
                    .indicator2
                    {position: absolute; top:90%; z-index: 99;  display: flex; width: 100%; justify-content: center;
                     }
-
-                   /* .healthySnacks{width: 100%; margin: auto; position: relative; 
-                  justify-content: center; margin-top: 40px; 
-                   background-color: aquamarine;  height: 400px;
-                  display: flex; justify-content: space-evenly;}
-                  .healthySnacks>div{ width: 23%; 
-                   background-color: blanchedalmond;  position: relative;
-                  }
-                 
-                   
-                  .healthySnacks>div:nth-child(1){background-color: #069bff;
-                  }
-
-                  .healthySnacks1{display: flex; flex-direction: column;
-                   text-align: center;}
-            
-                  .healthySnacksHover1{position: absolute; left: 15px; transform: rotate(160deg);}               
-                  .healthySnacksPicture1{position: absolute; left: 70px;}
-                  .healthySnacksEnName1{margin-top: 230px;}
-                  
-                  .icecreamslide{position: relative; width: 100%; */
-                    /* background-color: #afdfff;} */
-                   
-                  
-
-                  /* .healthySnacks>div>span{position: absolute;}
-                  .healthySnacksHover1{position: absolute; left: -25px;  }
-                  .healthySnacksHover1 img{width: 100%; transform: rotate(160deg); }
-                  .healthySnacksPicture1 img{width: 100%; transform: rotate(5deg);  }
-                  .healthySnacksPicture1{position: absolute; left: 30px;}
-                  .healthySnacksEnName1{font-family: 'luck'; font-size: 25px;
-                   top: 100px; top: 230px; left: 20px; }
-                   뒤 호버 290px. 쥬시 190px로 포토샵 지정 후 100% 해서 사용
-                  .healthySnacksKoName1{font-family: 'mapleB'; font-size: 20px;
-                    top: 270px; left: 70px; } */
- 
 
                     /* section5 구매방법 */
                     .section5{margin: auto; width: 100%; position: relative; margin-top: 120px;  }
@@ -684,7 +648,7 @@
              .lnb:hover {height: 320px;}
 
              /* 아이스크림 콘, 스쿱 설명 수정 */
-
+             .icecreamshopMiddle{width: 90%; height: 450px;}
              .flavorMent{ margin-bottom: 40px; }
              .cone>img{width: 60%; margin-left: 36px;}
              .englishName7{ font-size: 22px;}
